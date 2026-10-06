@@ -1,0 +1,11 @@
+code,locale,description
+1,EN,New
+2,EN,Processing
+3,EN,Shipped
+4,EN,Received
+5,EN,Cancelled
+1,ES,Nuevo
+2,ES,Procesando
+3,ES,Enviado
+4,ES,Recibido
+5,ES,Cancelado

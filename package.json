@@ -1,0 +1,26 @@
+{
+  "name": "CAPLogaliAitorFinal",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@sap/cds": "^10"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^3"
+  },
+
+  "scripts": {
+    "start": "cds-serve",
+    "generate-predata" : "cds add data" ,
+    "deployBD": "cds deploy --profile dev",
+    "deployLocal": "cds watch --profile dev"
+  },
+   "scripts-comments": {
+    "start": "Starts the development server",
+    "generate-predata": "Generate data inside db/data as csv file",
+    "deployBD" : "Set CSV inside SQL",
+    "deployLocal": "Using Sqlite"
+
+  },
+  "private": true
+}

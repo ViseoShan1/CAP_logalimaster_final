@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Salesorder",
+            "database": "${workspaceFolder:CAPLogaliAitorFinal}/salesorders.sqlite"
+        }
+    ]
+}
